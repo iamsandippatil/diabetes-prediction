@@ -5,13 +5,9 @@ import streamlit as st
 import os
 
 import sklearn 
-print(sklearn.__version__)
-print(os.path.abspath('trained_diabetes_model.sav'))  # Verify absolute path
-
-
 
 # Loading the saved model
-loaded_model = pickle.load(open(os.path.abspath('trained_diabetes_model.sav'), 'rb'))
+loaded_model = pickle.load(open(os.path.abspath('diabetes_xg_model.sav'), 'rb'))
 
 # Creating a function for prediction
 
