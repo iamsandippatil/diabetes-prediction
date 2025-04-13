@@ -35,6 +35,9 @@ def main():
 
     # Giving a title
     st.title('Diabetes Prediction Web App')
+    st.markdown('This web app predicts whether a person is diabetic or not based on the input data provided. Developed by Sandip Patil (G24AIT2180) and Vivek Kumar(G24AIT2071).') 
+
+    st.subheader('Please enter the following details to predict diabetes:')
 
     # Getting input from the user
     try:
